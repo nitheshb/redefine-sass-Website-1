@@ -66,3 +66,43 @@ button {
   width: 100%;
   padding: 0 40px;
 }
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; /* Change background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.logo  {
+  height: 40px; /* Adjust logo height as needed */
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-button {
+  /* margin-left: 10px; */
+   /* Adjust spacing between buttons */
+  cursor: pointer;
+  background: transparent ;
+  display: inline-block;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 1.4em;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 3px;
+  border: none;
+}
+
+.navbar-button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
