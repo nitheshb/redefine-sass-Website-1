@@ -1,5 +1,5 @@
 import {useEffect} from 'react'
-import {RoundedBox, ScrollControls, Scroll, Environment,Sparkles,Backdrop,Float, Ring} from '@react-three/drei'
+import { ScrollControls, Scroll, Environment,Sparkles,Backdrop,Float, Ring} from '@react-three/drei'
 import { Robot } from './components/Robot';
 import baffle from 'baffle'
 
